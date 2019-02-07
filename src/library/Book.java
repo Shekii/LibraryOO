@@ -16,6 +16,7 @@ public class Book implements Serializable {
     private final String title;
     private final int iSBNNumber;
     private final String author;
+    private final String test;
     
     private Member borrower = null;
     private static int bookCount = 0;
